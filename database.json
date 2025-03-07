@@ -1,0 +1,16 @@
+{
+    "dev": {
+      "driver": "pg",
+      "host": {"ENV": "POSTGRESS_HOST"},
+      "database": {"ENV": "POSTGRESS_DB"},
+      "user": {"ENV": "POSTGRESS_USER"},
+      "password": {"ENV": "POSTGRESS_PASSWORD"}
+    },
+    "test": {
+      "driver": "pg",
+     "host": {"ENV": "POSTGRESS_HOST"},
+      "database": {"ENV": "POSTGRESS_DB_TEST"},
+      "user": {"ENV": "POSTGRESS_USER"},
+      "password": {"ENV": "POSTGRESS_PASSWORD"}
+    }
+  }
